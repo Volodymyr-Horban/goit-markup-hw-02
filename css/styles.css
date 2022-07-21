@@ -1,12 +1,29 @@
-body {color: #212121;
-    font-family: "Roboto";
-}
-
-nav > a {
+body {
     color: #212121;
-    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    }
+
+li {
+    list-style: none;
 }
 
+button {
+font-family: inherit;
+}
+
+.visually-hidden {
+ position: absolute;
+white-space: nowrap;
+width: 1px;
+height: 1px;
+overflow: hidden;
+border: 0;
+padding: 0;
+clip: rect(0 0 0 0);
+clip-path: inset(50%);
+margin: -1px;
+}
 
 /* Menu navigation */
 .navigation, .navigation:visited {
@@ -17,3 +34,8 @@ nav > a {
     color: #2196F3;
 }
 
+/* Filters*/
+
+
+
+/*Sample work*/
